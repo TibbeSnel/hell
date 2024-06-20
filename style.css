@@ -4,4 +4,14 @@ body {
     text-align: left;
     color: transparent;
     background-size: 40%;
+    animation: scroll linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
 }
